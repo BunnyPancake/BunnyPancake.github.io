@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Pagefind Stylesheet -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
 </head>
 <body>
 <div class="site-shell">
@@ -19,6 +22,9 @@
       <a href="index.html" aria-current="page">home</a>
       <a href="about.html">about</a>
     </nav>
+
+    <!-- Pagefind Search Box Widget -->
+    <div id="search" style="margin-top: 1rem;"></div>
   </header>
 
   <main class="home" style="max-width: 650px;">
@@ -47,5 +53,13 @@
     <span>Discovery Bay, Hong Kong / Oxford, UK</span>
   </footer>
 </div>
+
+<!-- Pagefind JavaScript -->
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
 </body>
 </html>
