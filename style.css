@@ -23,7 +23,7 @@ main { width: min(100% - 48px, 1020px); margin: 0 auto; flex: 1; }
 .eyebrow { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .20em; font-weight: 900; margin: 0 0 20px; }
 h1 { font-family: 'Nunito Sans', 'Trebuchet MS', Arial, sans-serif; font-weight: 900; letter-spacing: -.065em; color: var(--maroon); line-height: 1.12; font-size: clamp(3.2rem, 9vw, 7.4rem); margin: 0 0 24px; }
 .home .intro { max-width: 580px; font-size: clamp(1.12rem, 2vw, 1.4rem); line-height: 1.65; margin: 0; }
-.home .star { font-size: clamp(90px, 18vw, 200px); position: absolute; color: #d9b9b2; right: 105%; bottom: 55%; font-weight: 900; line-height: 1; opacity: .5; user-select: none; pointer-events: none; }
+.home .star { font-size: clamp(90px, 18vw, 200px); position: absolute; color: #d9b9b2; right: 105%; bottom: 57%; font-weight: 900; line-height: 1; opacity: .5; user-select: none; pointer-events: none; font-variant-emoji: text;}
 .page { padding: 75px 0 100px; }
 .page h1 { font-size: clamp(3.7rem, 9vw, 6.7rem); margin-bottom: 14px; }
 .lede { max-width: 570px; color: var(--muted); font-size: 1.13rem; margin: 0 0 52px; }
