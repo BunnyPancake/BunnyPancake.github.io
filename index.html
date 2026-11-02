@@ -48,37 +48,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="site-shell">
-  <header class="site-header">
+<div class="site-shell" style="width: 100%; max-width: 650px; margin: 0 auto; padding: 1rem; box-sizing: border-box;">
+  <header class="site-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
     <a class="site-name" href="index.html">jae won park ✳</a>
-    <nav aria-label="Main navigation">
+    <nav aria-label="Main navigation" style="display: flex; gap: 1rem;">
       <a href="index.html" aria-current="page">home</a>
       <a href="about.html">about</a>
     </nav>
   </header>
 
-  <main class="home" style="max-width: 650px;">
-    <h1>hi, I'm<br />Jae Won<span aria-hidden="true">.</span></h1>
+  <main class="home" style="width: 100%; margin-top: 2rem;">
+    <h1 style="font-size: clamp(2rem, 8vw, 3.5rem); line-height: 1.1;">hi, I'm<br />Jae Won<span aria-hidden="true">.</span></h1>
     
-    <div class="intro-group" style="margin-top: 1.5rem; margin-bottom: 2rem; font-size: 1.3rem;">
-      <p class="intro" style="margin: 0; line-height: 1.6;">
-        <strong><span style="white-space: nowrap;">2nd year Computer Science @ Magdalen College, Oxford</span></strong>
+    <div class="intro-group" style="margin-top: 1.5rem; margin-bottom: 2rem; font-size: clamp(1rem, 4vw, 1.3rem);">
+      <p class="intro" style="margin: 0; line-height: 1.5;">
+        <strong>2nd year Computer Science @ Magdalen College, Oxford</strong>
       </p>
-      <p class="intro-detail" style="margin-top: 1.25rem; margin-bottom: 0;">
+      <p class="intro-detail" style="margin-top: 1rem; margin-bottom: 0; line-height: 1.5;">
         I'm interested in functional programming, programming languages, &amp; type theory
       </p>
     </div>
 
-    <div class="social-links" style="display: flex; gap: 0.75rem; align-items: center; margin-top: 0.5rem; margin-bottom: 0rem;">
-      <a href="mailto:jae.park@magd.ox.ac.uk">jae.park@magd.ox.ac.uk</a>
+    <div class="social-links" style="display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; align-items: center; margin-top: 0.5rem;">
+      <a href="mailto:jae.park@magd.ox.ac.uk" style="word-break: break-all;">jae.park@magd.ox.ac.uk</a>
       <span>/</span>
       <a href="https://hk.linkedin.com/in/jae-won-park-498401313" target="_blank" rel="noopener">linkedin</a>
     </div>
 
-    <div class="star" aria-hidden="true">✳</div>
+    <div class="star" aria-hidden="true" style="margin-top: 2rem;">✳</div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" style="margin-top: 3rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; font-size: 0.9rem;">
     <span></span>
     <span>Discovery Bay, Hong Kong / Oxford, UK</span>
   </footer>
