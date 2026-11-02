@@ -12,51 +12,58 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="site-shell">
-  <header class="site-header">
+<div class="site-shell" style="width: 100%; max-width: 650px; margin: 0 auto; padding: 1rem; box-sizing: border-box;">
+  <header class="site-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
     <a class="site-name" href="index.html">jae won park ✳</a>
-    <nav aria-label="Main navigation">
+    <nav aria-label="Main navigation" style="display: flex; gap: 1rem;">
       <a href="index.html">home</a>
       <a href="about.html" aria-current="page">about</a>
     </nav>
   </header>
 
-  <main class="about" style="max-width: 650px; margin-top: 3rem">
-    <h1>about<span aria-hidden="true">.</span></h1>
+  <main class="about" style="width: 100%; margin-top: 2rem;">
+    <h1 style="font-size: clamp(2rem, 8vw, 3.5rem); line-height: 1.1;">about<span aria-hidden="true">.</span></h1>
 
     <div class="list-section" style="margin-top: 2rem;">
       <h2 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem;">learning right now</h2>
-      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 1.8; font-size: 1.1rem;">
-        <li>Programming Language Foundations in Agda (PLFA) — Philip Wadler</li>
-        <li>The Little Typer — Daniel P. Friedman and David Thrane Christiansen</li>
+      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 1.6; font-size: clamp(0.95rem, 3.5vw, 1.1rem);">
+        <li style="margin-bottom: 0.5rem;">Programming Language Foundations in Agda (PLFA) — Philip Wadler</li>
+        <li style="margin-bottom: 0.5rem;">The Little Typer — Daniel P. Friedman and David Thrane Christiansen</li>
       </ul>
     </div>
 
     <div class="list-section" style="margin-top: 2.5rem;">
       <h2 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem;">favorite books</h2>
-      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 1.8; font-size: 1.1rem;">
-        <li>Kitchen — Banana Yoshimoto</li>
-        <li>Raising hare — Chloe Dalton</li>
-        <li>Things in nature merely grow — Yiyun Li</li>
+      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 1.6; font-size: clamp(0.95rem, 3.5vw, 1.1rem);">
+        <li style="margin-bottom: 0.4rem;">Kitchen — Banana Yoshimoto</li>
+        <li style="margin-bottom: 0.4rem;">Raising Hare — Chloe Dalton</li>
+        <li style="margin-bottom: 0.4rem;">Things in nature merely grow — Yiyun Li</li>
       </ul>
     </div>
 
     <div class="list-section" style="margin-top: 2.5rem;">
       <h2 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem;">favorite artists / tracks</h2>
-      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 2; font-size: 1.05rem;">
-        <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.25rem; margin-bottom: 0.5rem;">
+      <ul style="list-style: none; padding-left: 0; margin: 0; line-height: 1.6; font-size: clamp(0.95rem, 3.5vw, 1.05rem);">
+        <li style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.5rem; margin-bottom: 0.75rem; gap: 0.25rem 1rem;">
           <strong style="font-weight: 700;">AKMU</strong>
-          <span style="opacity: 0.7;"><em>Paid with bugs, Time and fallen leaves</em></span>
+          <span style="opacity: 0.7; font-size: 0.95em;"><em>Paid with bugs, Time and fallen leaves</em></span>
         </li>
-        <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.25rem; margin-bottom: 0.5rem;">
+        <li style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.5rem; margin-bottom: 0.75rem; gap: 0.25rem 1rem;">
           <strong style="font-weight: 700;">Beck</strong>
-          <span style="opacity: 0.7;"><em>Gamma ray, Disappearing act</em></span>
+          <span style="opacity: 0.7; font-size: 0.95em;"><em>Gamma ray, Disappearing act</em></span>
         </li>
-        <li style="display: flex; justify-content: space-between; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.25rem; margin-bottom: 0.5rem;">
+        <li style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; border-bottom: 1px dotted rgba(0,0,0,0.15); padding-bottom: 0.5rem; margin-bottom: 0.75rem; gap: 0.25rem 1rem;">
           <strong style="font-weight: 700;">Bo Burnham</strong>
-          <span style="opacity: 0.7;"><em>The Chicken, Art is dead</em></span>
+          <span style="opacity: 0.7; font-size: 0.95em;"><em>The Chicken, Art is dead</em></span>
         </li>
       </ul>
     </div>
+  </main>
 
-    <div class="list-section" style="margin-top: 2.5rem;
+  <footer class="site-footer" style="margin-top: 3rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; font-size: 0.9rem;">
+    <span></span>
+    <span>Discovery Bay, Hong Kong / Oxford, UK</span>
+  </footer>
+</div>
+</body>
+</html>
